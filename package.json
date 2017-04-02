@@ -1,8 +1,8 @@
 {
-  "name": "bir",
+  "name": "malal",
   "version": "0.0.0-development",
   "description": "a javascript event driven system",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "precommit": "git add .",
     "commit": "git-cz",
@@ -36,6 +36,10 @@
     "nyc": "10.1.2",
     "semantic-release": "6.3.2"
   },
+  "files": [
+    "README.md",
+    "src/"
+  ],
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
   }
