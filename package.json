@@ -1,26 +1,24 @@
 {
   "name": "malal",
-  "version": "0.0.0-development",
-  "description": "a javascript event driven system",
+  "version": "1.0.0",
+  "description": "a lightweight i18n and l10n library for node.js and the browser",
   "main": "src/index.js",
   "scripts": {
-    "precommit": "git add .",
-    "commit": "git-cz",
-    "postcommit": "git push origin HEAD",
     "test": "ava",
     "watch:test": "ava --watch",
     "cover": "nyc ava",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/mouafa/malal.git"
   },
   "keywords": [
-    "bus",
-    "event",
-    "emit",
-    "on"
+    "i18n",
+    "l10n",
+    "Internationalization",
+    "localization",
+    "node.js",
+    "browser",
   ],
   "author": "mouafa",
   "license": "ISC",
@@ -30,18 +28,12 @@
   "homepage": "https://github.com/mouafa/malal#readme",
   "devDependencies": {
     "ava": "0.17.0",
-    "commitizen": "2.9.5",
     "coveralls": "2.11.16",
-    "cz-conventional-changelog": "1.2.0",
     "nyc": "10.1.2",
-    "semantic-release": "6.3.2"
   },
   "files": [
     "README.md",
     "logo.png",
     "src/"
-  ],
-  "czConfig": {
-    "path": "node_modules/cz-conventional-changelog"
-  }
+  ]
 }

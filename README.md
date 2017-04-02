@@ -2,7 +2,7 @@
 <p align="center"><img width="auto" src="logo.png"></p>
 
 # malal
-a light weight i18n library for node.js and the browser
+a lightweight i18n and l10n library for node.js and the browser
 [![Coverage Status](https://coveralls.io/repos/github/mouafa/malal/badge.svg?branch=master)](https://coveralls.io/github/mouafa/malal?branch=master)
 
 ## Installation
