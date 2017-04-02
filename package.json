@@ -1,0 +1,42 @@
+{
+  "name": "bir",
+  "version": "0.0.0-development",
+  "description": "a javascript event driven system",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "git add .",
+    "commit": "git-cz",
+    "postcommit": "git push origin HEAD",
+    "test": "ava",
+    "watch:test": "ava --watch",
+    "cover": "nyc ava",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mouafa/malal.git"
+  },
+  "keywords": [
+    "bus",
+    "event",
+    "emit",
+    "on"
+  ],
+  "author": "mouafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mouafa/malal/issues"
+  },
+  "homepage": "https://github.com/mouafa/malal#readme",
+  "devDependencies": {
+    "ava": "0.17.0",
+    "commitizen": "2.9.5",
+    "coveralls": "2.11.16",
+    "cz-conventional-changelog": "1.2.0",
+    "nyc": "10.1.2",
+    "semantic-release": "6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
+}

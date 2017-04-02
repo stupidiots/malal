@@ -1,0 +1,28 @@
+{
+  "social": {
+    "_headline": "Follow us:",
+    "_copy": "more than {{count}} customers trusted us in {{country}}",
+    "icons": {
+      "facebook": {
+        "_class_name": "facebook",
+        "_title": "Follow on Facebook",
+        "_url": "http://www.facebook.com/{{facebook}}"
+      },
+      "twitter": {
+        "_class_name": "twitter",
+        "_title": "Follow on Twitter",
+        "_url": "https://twitter.com/{{twitter}}"
+      },
+      "youtube": {
+        "_class_name": "youtube",
+        "_title": "Follow on YouTube",
+        "_url": "https://www.youtube.com/channel/{{youtube}}"
+      },
+      "instagram": {
+        "_class_name": "instagram",
+        "_title": "Follow on Instagram",
+        "_url": "https://instagram.com/{{instagram}}"
+      }
+    }
+  }
+}

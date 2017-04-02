@@ -1,0 +1,1 @@
+[![Coverage Status](https://coveralls.io/repos/github/mouafa/Bir/badge.svg?branch=master)](https://coveralls.io/github/mouafa/Bir?branch=master)
