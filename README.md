@@ -2,6 +2,8 @@
 <p align="center"><img width="auto" src="logo.png"></p>
 
 # malal
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mouafa/malal.svg)](https://greenkeeper.io/)
 a light weight i18n library for node.js and the browser
 [![Coverage Status](https://coveralls.io/repos/github/mouafa/malal/badge.svg?branch=master)](https://coveralls.io/github/mouafa/malal?branch=master)
 
