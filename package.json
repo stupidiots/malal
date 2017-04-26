@@ -29,11 +29,11 @@
   },
   "homepage": "https://github.com/mouafa/malal#readme",
   "devDependencies": {
-    "ava": "0.17.0",
-    "commitizen": "2.9.5",
-    "coveralls": "2.11.16",
-    "cz-conventional-changelog": "1.2.0",
-    "nyc": "10.1.2",
+    "ava": "0.19.1",
+    "commitizen": "2.9.6",
+    "coveralls": "2.13.0",
+    "cz-conventional-changelog": "2.0.0",
+    "nyc": "10.2.0",
     "semantic-release": "6.3.2"
   },
   "files": [
