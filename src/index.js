@@ -1,6 +1,6 @@
 'use strict'
 
-const { _parseMsg, _replace } = require('./utils')
+import { _parseMsg, _replace } from './utils';
 
 class Malal {
   constructor() {
@@ -41,4 +41,4 @@ class Malal {
 
 const instance = new Malal()
 
-module.exports = instance
+export default instance;

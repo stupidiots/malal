@@ -5,15 +5,22 @@ cache:
 notifications:
   email: false
 node_js:
-  - '7'
+  - '8'
 before_script:
-  - npm prune
+  - yarn
 script:
-  - npm run test
-  - npm run cover
+  - yarn test
+  - yarn cover
 after_success:
   - './node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls'
-  - npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+deploy:
+  provider: npm
+  email: mouafa.king@gmail.com
+  api_key:
+    secure: $NPM_TOKEN
+  on:
+    repo: mouafa/malal
+    branch: master

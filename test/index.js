@@ -1,6 +1,6 @@
-const test = require('ava')
-const fs = require('fs')
-const m = require('../src')
+import test from 'ava';
+import fs from 'fs';
+import m from '../src';
 let en, de
 async function readTranslation(lang) {
   return new Promise((resolve, reject) => {
