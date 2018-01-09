@@ -5,6 +5,8 @@
 a lightweight i18n and l10n library for node.js and the browser
 [![Coverage Status](https://coveralls.io/repos/github/mouafa/malal/badge.svg?branch=master)](https://coveralls.io/github/mouafa/malal?branch=master)
 
+* Version 2 is now use ES6 modules, for CJS modules please use version 1 *
+
 ## Installation
 ```console
 $ yarn add malal
