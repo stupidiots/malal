@@ -1,11 +1,11 @@
-function _replace(msg, context = {}) {
+export function _replace(msg, context = {}) {
   return Object.keys(context)
   .reduce((acc, key) => {
     return acc.replace(new RegExp(`\{\{(\s*)(${key})(\s*)\}\}`), context[key])
   }, msg)
 }
 
-function _flatten(src, path = '') {
+export function _flatten(src, path = '') {
   return Object.keys(src)
         .reduce((acc, now) => {
           if (typeof src[now] !== 'object') {
@@ -17,13 +17,6 @@ function _flatten(src, path = '') {
         }, {})
 }
 
-function _parseMsg(messages) {
+export function _parseMsg(messages) {
   return new Map(Object.entries(_flatten(messages)))
-}
-
-
-module.exports = {
-  _replace,
-  _parseMsg,
-  _flatten
 }

@@ -1,12 +1,12 @@
 {
   "name": "malal",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "a lightweight i18n and l10n library for node.js and the browser",
   "main": "src/index.js",
   "scripts": {
     "test": "ava",
     "watch:test": "ava --watch",
-    "cover": "nyc ava",
+    "cover": "nyc ava"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
     "Internationalization",
     "localization",
     "node.js",
-    "browser",
+    "browser"
   ],
   "author": "mouafa",
   "license": "ISC",
@@ -27,13 +27,20 @@
   },
   "homepage": "https://github.com/mouafa/malal#readme",
   "devDependencies": {
+    "@std/esm": "0.19.1",
     "ava": "0.17.0",
     "coveralls": "2.11.16",
-    "nyc": "10.1.2",
+    "nyc": "10.1.2"
   },
   "files": [
     "README.md",
     "logo.png",
     "src/"
-  ]
+  ],
+  "ava": {
+		"require": [
+			"@std/esm"
+		]
+	},
+	"@std/esm": "cjs"
 }

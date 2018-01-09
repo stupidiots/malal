@@ -1,5 +1,5 @@
 
-<p align="center"><img width="auto" src="logo.png"></p>
+<p align="center"><img width="auto" src="https://raw.githubusercontent.com/mouafa/malal/master/logo.png"></p>
 
 # malal
 a lightweight i18n and l10n library for node.js and the browser
